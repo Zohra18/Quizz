@@ -1,0 +1,155 @@
+@font-face {
+  font-family: BYT;
+  src: url('font/BOYCOTT_.ttf');
+           }
+html{
+    margin: 0;
+    padding: 0;
+    body{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-family: monospace;
+        background-image: url('img/bg4.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        @media only screen and (max-width: 600px){
+                                                 }
+        header{
+              background-color: #173654;
+              padding: 0px 0px 10px 0px;
+              margin: 0;
+              width: 100%;
+              h1, p{
+                   margin: 0;
+                   padding: 1% 0px 1% 0px;
+                   color: white;
+                   }
+              p{
+               font-size: 16px;
+               font-weight: bold;
+               }
+              h1{
+                font-family: BYT;
+                font-size: 50px;
+                }
+              @media only screen and (max-width: 1050px){
+                                                        p, h1{
+                                                             transition: 3s;
+                                                             padding: 10px 0px 8px 0px;
+                                                             }
+                                                        p{
+                                                         font-size: 14px;
+                                                         }
+                                                        h1{
+                                                          font-size: 40px;
+                                                          }
+                                                        }
+              @media only screen and (max-width: 650px){
+                                                       p{
+                                                        padding: 6px 0px 4px 0px;
+                                                        font-size: 12px;
+                                                       }
+                                                       h1{
+                                                         padding: 8px 0px 4px 0px;
+                                                         font-size: 30px;
+                                                       }
+                                                       }
+              }
+              #bigform{
+                      width: 80%;
+                      height: 100%;
+                      margin-left: 10%;
+                      background: rgba(0,0,0,0.95);
+                      display: flex;
+                      justify-content: space-around;
+                      padding: 10px 0px 50px 0px;
+                      @media only screen and (max-width: 1050px){
+                                                                width: 90%;
+                                                                margin-left: 5%;
+                                                                background: rgba(0,0,0,0.9);
+                                                                transition: 3s;
+                                                                }
+                      @media only screen and (max-width: 950px){
+                                                               background: rgba(0,0,0,0.8);
+                                                               transition: 3s;
+                                                               }
+                      @media only screen and (max-width: 650px) {
+                                                                width: 100%;
+                                                                transition: 3s;
+                                                                background: rgba(0,0,0,0.7);
+                                                                display: flex;
+                                                                flex-direction: column;
+                                                                padding: 0%;
+                                                                margin: 0%;
+                      }
+                      .parts{
+                            @media only screen and (max-width: 950px){
+                                                                     .uniqquestion{
+                                                                                  transition: 1s;
+                                                                                  height: auto;
+                                                                                  width: 100%;
+                                                                                  }
+
+                                                                     p{
+                                                                       transition: 1s;
+                                                                       text-align: center;
+                                                                       padding: 2px 0px 4px 0px;
+                                                                     }
+                                                                     .questions{
+                                                                               transition: 1s;
+                                                                               font-size: 12px;
+                                                                               width: 80%;
+                                                                               margin-left: 10%;
+                                                                               }
+                                                                     input{
+                                                                          transition: 1s;
+                                                                          margin-top: 8px;
+                                                                          }
+                                                                     }
+                            @media only screen and (max-width: 650px){
+                                                                     .uniqquestion{
+                                                                                  transition: 3s;
+                                                                                  height: auto;
+                                                                                  width: 100%;
+                                                                                  }
+
+                                                                     p{
+                                                                       transition: 3s;
+                                                                       text-align: center;
+                                                                       padding: 2px 0px 4px 0px;
+                                                                     }
+                                                                     .questions{
+                                                                               transition: 3s;
+                                                                               font-size: 12px;
+                                                                               width: 80%;
+                                                                               margin-left: 10%;
+                                                                               }
+                                                                     input{
+                                                                          transition: 3s;
+                                                                          margin-top: 4px;
+                                                                          }
+                                                                     }
+                            p{
+                             color: white;
+                             width: 400px;
+                             height: 20px;
+                             padding-bottom: 6px;
+                             }
+                            input{
+                                  background: white;
+                                  margin-top: 2%;
+                                 }
+                            .uniqquestion{
+                                         padding: 10px 0px 10px 0px;
+                                         }
+                            }
+                            button{
+                                  background-color: #173654;
+                                  color: white;
+                                  }
+
+                      }
+        }
+    }
